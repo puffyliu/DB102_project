@@ -56,4 +56,4 @@ try:
         print("結束時間: ", datetime.datetime.now())
     df_append = df.join(df2, how='left')  # append是加在下面 join才是新增欄位
 finally:
-    df_append.to_csv("history_stock_append.csv", encoding="Big5", index=False)
+    df_append.to_csv("history_stock_MA.csv", encoding="Big5", index=False)
