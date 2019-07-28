@@ -2,9 +2,11 @@ import pandas as pd  # 要改名的原因不可考
 from decimal import Decimal
 import datetime
 
-df = pd.read_csv("history_stock.csv", encoding='big5', low_memory=False)
+# df = pd.read_csv("history_stock.csv", encoding='big5', low_memory=False)
+df = pd.read_csv("stock_inf.csv", encoding='big5', low_memory=False)
 pd.set_option('display.max_rows', None)
-df_close = df["收盤"]
+# df_close = df["收盤"]
+df_close = df["p_close"]
 len_close = len(df_close)
 close_re = df_close.str.replace(",", "")  # 把千分位數去掉
 
@@ -24,7 +26,7 @@ def moving_average(n):
 
 
 try:
-    col = ["日5日平均線", "日10日平均線", "日20日平均線", "日60日平均線", "週5週平均線", "週10週平均線", "週20週平均線", "月5月平均線", "月10月平均線", "月20月平均線"]
+    col = ["ma5", "ma10", "ma20", "ma60", "ma22", "ma46", "ma92", "ma95", "ma200", "ma400"]
     df2 = pd.DataFrame(columns=col)
     print(datetime.datetime.now(), " 開始計算MA")
     MA5 = moving_average(5)
@@ -56,4 +58,5 @@ try:
         print("結束時間: ", datetime.datetime.now())
     df_append = df.join(df2, how='left')  # append是加在下面 join才是新增欄位
 finally:
-    df_append.to_csv("history_stock_MA.csv", encoding="Big5", index=False)
+    # df_append.to_csv("history_stock_MA.csv", encoding="Big5", index=False)
+    df_append.to_csv("stock_inf_MA.csv", encoding="Big5", index=False)

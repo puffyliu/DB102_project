@@ -1,6 +1,6 @@
 from selenium.webdriver import Chrome
 import pandas as pd  # 要改名的原因不可考
-import Project.read_stock50 as stock50
+import read_stock50 as stock50
 
 col = ["代號", "交易日期", "外資庫存", "外資買賣超", "投信買賣超", "自營買賣超"]
 df = pd.DataFrame(columns=col)
