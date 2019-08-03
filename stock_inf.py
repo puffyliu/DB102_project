@@ -1,8 +1,10 @@
+import datetime
 from selenium import webdriver
 import pandas as pd  # 要改名的原因不可考
 import read_stock50 as stock50
 from sqlalchemy import create_engine
 
+csv_name = str(datetime.date.today()) + "_inf.csv"
 col = ["id", "t_date", "code", "name", "p_open", "p_high", "p_low", "p_close", "volume"]
 df = pd.DataFrame(columns=col)
 code_list = stock50.code_list()
@@ -28,6 +30,7 @@ for i in range(code_len):
         # 表的內容
         # 將表的每一行的每一列內容存在table_td_list中，從第1列開始
         table_td = table_tr[0].text
+        # print(table_td)
         table_td_list = table_td.split(" ")
         # 排掉不要的欄位
         table_td_list.pop(5)
@@ -50,7 +53,8 @@ for i in range(code_len):
 
     finally:
         driver.close()
+
 # 儲存表格至csv
-# df.to_csv("stock_inf.csv", encoding="Big5", index=False)  # Big5不會變亂碼 LOL
-print(df)
+df.to_csv(csv_name, encoding="Big5", index=False)  # Big5不會變亂碼 LOL
+# print(df)
 df.to_sql(con=engine, name='stock_inf', if_exists='append', index=False)

@@ -4,7 +4,7 @@ conn = connection.MySQLConnection(host="10.120.14.28", port=3306, database='stoc
 
 mycursor = conn.cursor()
 
-mycursor.execute("SELECT * FROM stocklisted")
+mycursor.execute("SELECT * FROM stock_inf")
 
 myresult = mycursor.fetchall()
 

@@ -26,23 +26,23 @@ for i in range(code_len):
         driver.find_element_by_id("ctl00_ContentPlaceHolder1_startText").clear()
         time.sleep(7)
         select_year = Select(driver.find_element_by_class_name('datepicker_newYear'))
-        select_year.select_by_visible_text(u"2019")  # 指向指定年分
+        select_year.select_by_visible_text(u"2011")  # 指向指定年分
         time.sleep(6)
         select_month = Select(driver.find_element_by_class_name('datepicker_newMonth'))
-        select_month.select_by_visible_text(u"July")   # 指向指定月份
+        select_month.select_by_visible_text(u"January")   # 指向指定月份
         time.sleep(6)
-        driver.find_element_by_link_text("25").click()  # 指向指定日期
+        driver.find_element_by_link_text("1").click()  # 指向指定日期
         time.sleep(3)
         # 處理結束日期
         driver.find_element_by_id("ctl00_ContentPlaceHolder1_endText").clear()
         time.sleep(7)
         select_year = Select(driver.find_element_by_class_name('datepicker_newYear'))
-        select_year.select_by_visible_text(u"2019")  # 指向指定年分
+        select_year.select_by_visible_text(u"2014")  # 指向指定年分
         time.sleep(6)
         select_month = Select(driver.find_element_by_class_name('datepicker_newMonth'))
-        select_month.select_by_visible_text(u"July")   # 指向指定月份
+        select_month.select_by_visible_text(u"January")   # 指向指定月份
         time.sleep(6)
-        driver.find_element_by_link_text("25").click()  # 指向指定日期
+        driver.find_element_by_link_text("1").click()  # 指向指定日期
         time.sleep(3)
         # 執行查詢
         driver.find_element_by_id("ctl00_ContentPlaceHolder1_submitBut").click()
@@ -80,5 +80,5 @@ for i in range(code_len):
         driver.close()
 
 # 儲存表格至csv & MySQL
-df.to_csv("lack_stock_2019/07/25.csv", encoding="Big5", index=False)  # Big5不會變亂碼 LOL
 df.to_sql(con=engine, name='stock_inf', if_exists='append', index=False)
+df.to_csv("lack_stock_2014.csv", encoding="Big5", index=False)  # Big5不會變亂碼 LOL

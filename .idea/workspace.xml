@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa9aefe-4484-4937-acce-46cd747706b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project/talib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read_stock50.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock50.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CrawlerDB102.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CrawlerDB102.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/MachineLearning/SVR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/MachineLearning/SVR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/MachineLearning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/MachineLearning/logistic(只能二分類).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/MachineLearning/svm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/MachineLearning/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/TibaMe_Big_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/TibaMe_Big_Data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/MA_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/MA_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/history_stock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Project/history_stock.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/connection_MYSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/connection_MYSQL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/history_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/history_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/import_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/import_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/tech_analy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/tech_analy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pyAI/classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/sklearn/svm/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sklearn/svm/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,37 +28,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock_inf.py">
+        <entry file="file://$PROJECT_DIR$/Project/MachineLearning/SVR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="-25">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Project/history_stock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project/import_mysql.py">
+        <entry file="file://$PROJECT_DIR$/Project/MachineLearning/logistic(只能二分類).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="125">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project/MachineLearning/svm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -75,10 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ou</find>
-      <find>Wiffle 32</find>
-      <find>PRO SPIN 便携式乒乓球套装 - 包括可伸缩网，适用于任何桌子，2 个球拍/球拍，3 个球拍，优质旅行/存储盒</find>
-      <find>PRO SPIN</find>
       <find>Easton Pro Stix 训练套装</find>
       <find>Wiffle 32 吋蝙蝠和 3 棒球套裝組合</find>
       <find>Franklin Sports MLB</find>
@@ -105,6 +98,10 @@
       <find>Project</find>
       <find>read_stock50</find>
       <find>stock50</find>
+      <find>minmaxscaler</find>
+      <find>MinMaxScaler</find>
+      <find>decision_function_shape</find>
+      <find>accept_large_sparse</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -125,13 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Crawl_NBA.py" />
-        <option value="$PROJECT_DIR$/doodles.py" />
-        <option value="$PROJECT_DIR$/HW1.py" />
-        <option value="$PROJECT_DIR$/testforNBA.py" />
-        <option value="$PROJECT_DIR$/PTT_crawler/pttcrawler.py" />
-        <option value="$PROJECT_DIR$/PTT_crawler/pttcrawler2.py" />
-        <option value="$PROJECT_DIR$/PTT_crawler/ptt_18.py" />
         <option value="$PROJECT_DIR$/yui.py" />
         <option value="$PROJECT_DIR$/secret.py" />
         <option value="$PROJECT_DIR$/facebook.py" />
@@ -164,18 +154,25 @@
         <option value="$PROJECT_DIR$/Project/Legal_holding.py" />
         <option value="$USER_HOME$/Desktop/mongodb_js_code/query7.js" />
         <option value="$PROJECT_DIR$/Project/MA_calculation_2.py" />
-        <option value="$PROJECT_DIR$/Project/connection_MYSQL.py" />
         <option value="$PROJECT_DIR$/Project/tech_analy.py" />
-        <option value="$PROJECT_DIR$/Project/MA_calculation.py" />
         <option value="$PROJECT_DIR$/practice/rate.py" />
         <option value="$PROJECT_DIR$/pyAI/classification.ipynb" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/talib/__init__.py" />
         <option value="$PROJECT_DIR$/Project/talib(無法執行).py" />
         <option value="$PROJECT_DIR$/Project/stock_inf.py" />
         <option value="$PROJECT_DIR$/Project/talib.py" />
-        <option value="$PROJECT_DIR$/Project/import_mysql.py" />
+        <option value="$USER_HOME$/Desktop/test/test/AnswerPub.py" />
         <option value="$PROJECT_DIR$/Project/history_stock.py" />
+        <option value="$PROJECT_DIR$/Project/connection_MYSQL.py" />
         <option value="$PROJECT_DIR$/stock_inf.py" />
+        <option value="$PROJECT_DIR$/Project/MA_calculation.py" />
+        <option value="$PROJECT_DIR$/Project/import_mysql.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/sklearn/svm/base.py" />
+        <option value="$PROJECT_DIR$/Project/MachineLearning/test.py" />
+        <option value="$PROJECT_DIR$/Project/MachineLearning/SVR.ipynb" />
+        <option value="$PROJECT_DIR$/Project/MachineLearning/SVR.py" />
+        <option value="$PROJECT_DIR$/Project/MachineLearning/logistic.py" />
+        <option value="$PROJECT_DIR$/Project/MachineLearning/svm.py" />
       </list>
     </option>
   </component>
@@ -190,22 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CrawlerDB102" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrawlerDB102" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrawlerDB102" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrawlerDB102" type="462c0819:PsiDirectoryNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -251,25 +232,48 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CrawlerDB102" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrawlerDB102" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrawlerDB102" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrawlerDB102" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrawlerDB102" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrawlerDB102" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/P14-Machine-Learning-AZ/Machine Learning A-Z Template Folder" />
+    <property name="last_opened_file_path" value="$USER_HOME$/db102project/line-bot-tutorial-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\DB102project\CrawlerDB102\Project" />
-      <recent name="E:\爬蟲\CrawlerDB102\Project" />
-      <recent name="E:\爬蟲\CrawlerDB102\專題" />
-      <recent name="E:\爬蟲\CrawlerDB102\PTT_crawler" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DB102project\CrawlerDB102\Project\MachineLearning" />
       <recent name="E:\DB102project\CrawlerDB102" />
       <recent name="E:\爬蟲\CrawlerDB102\pyAI" />
       <recent name="E:\爬蟲\CrawlerDB102\Project" />
       <recent name="E:\爬蟲\CrawlerDB102\專題" />
-      <recent name="E:\爬蟲\CrawlerDB102\練習" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DB102project\CrawlerDB102\Project\MachineLearning" />
+      <recent name="E:\DB102project\CrawlerDB102\Project" />
+      <recent name="E:\爬蟲\CrawlerDB102\Project" />
+      <recent name="E:\爬蟲\CrawlerDB102\專題" />
+      <recent name="E:\爬蟲\CrawlerDB102\PTT_crawler" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.history_stock">
+  <component name="RunManager" selected="Python.svm">
     <configuration name="CrawlerDB102" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="CrawlerDB102" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,7 +306,7 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="history_stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SVR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerDB102" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,11 +314,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/MachineLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/history_stock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/MachineLearning/SVR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stock_inf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerDB102" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,11 +356,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/MachineLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DB102project\CrawlerDB102\stock_inf.py" />
+      <option name="SCRIPT_NAME" value="E:\DB102project\CrawlerDB102\Project\MachineLearning\logistic(只能二分類).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,7 +369,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="talib (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerDB102" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,11 +377,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/MachineLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/talib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/MachineLearning/svm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,7 +390,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="talib(無法執行)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CrawlerDB102" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -394,11 +398,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/MachineLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DB102project\CrawlerDB102\Project\talib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/MachineLearning/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,11 +413,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.history_stock" />
+        <item itemvalue="Python.svm" />
+        <item itemvalue="Python.logistic" />
+        <item itemvalue="Python.SVR" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.import_mysql" />
-        <item itemvalue="Python.talib (1)" />
-        <item itemvalue="Python.talib(無法執行)" />
-        <item itemvalue="Python.stock_inf" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +460,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49789253" weight="0.3275488" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50421494" side_tool="true" visible="true" weight="0.3264642" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50421494" side_tool="true" visible="true" weight="0.28741866" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49894625" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,83 +502,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="專題" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="615" column="44" lean-forward="true" selection-start-line="615" selection-start-column="44" selection-end-line="615" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/youtube_dl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/yt_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/HW1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/專題/111.py" />
-    <entry file="file://$PROJECT_DIR$/專題/connectdb.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1067744832/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="2958" column="8" selection-start-line="2958" selection-start-column="8" selection-end-line="2958" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/jedi/third_party/typeshed/stdlib/2and3/array.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/facebook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/testforNBA.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="343" column="35" selection-start-line="343" selection-start-column="35" selection-end-line="343" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/tabelog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -613,13 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/history_2317.csv" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="709" selection-start-line="709" selection-end-line="709" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/testmongo.py" />
     <entry file="file://$PROJECT_DIR$/practice/Amazon.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -647,13 +567,6 @@
     <entry file="file://$PROJECT_DIR$/Project/history_stock.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="2399" column="8" selection-start-line="2399" selection-start-column="8" selection-end-line="2399" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/connection_MongoDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -665,9 +578,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../db102project/line-bot-tutorial-master/app.py" />
-    <entry file="file://$PROJECT_DIR$/Project/history_stock_MA.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/schedule/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -679,16 +589,6 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/MA_calculation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,13 +647,6 @@
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/connection_MYSQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project/talib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -781,12 +674,91 @@
     <entry file="file://$PROJECT_DIR$/Project/daily_stockinf.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/test/test/AnswerPub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/lack_stock_20190725.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/stock_inf.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/history_stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stock_inf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="825">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/history_stock_MA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="709" selection-start-line="709" selection-end-line="709" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/MachineLearning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/preprocessing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/MachineLearning/SVR.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="197" column="52" lean-forward="true" selection-start-line="197" selection-start-column="52" selection-end-line="197" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/MA_calculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -794,20 +766,65 @@
     <entry file="file://$PROJECT_DIR$/Project/import_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/history_stock.py">
+    <entry file="file://$PROJECT_DIR$/Project/connection_MYSQL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="2407" column="13" lean-forward="true" selection-start-line="2407" selection-start-column="13" selection-end-line="2407" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/MachineLearning/logistic(只能二分類).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/MachineLearning/SVR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="612" column="68" selection-start-line="612" selection-start-column="45" selection-end-line="612" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="414" column="43" selection-start-line="414" selection-start-column="24" selection-end-line="414" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/MachineLearning/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
