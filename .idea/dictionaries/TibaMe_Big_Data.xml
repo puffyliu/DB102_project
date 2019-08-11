@@ -7,6 +7,9 @@
       <w>dataframe</w>
       <w>dataset</w>
       <w>datepicker</w>
+      <w>fastperiod</w>
+      <w>macd</w>
+      <w>macdsignal</w>
       <w>mape</w>
       <w>mycursor</w>
       <w>myresult</w>
@@ -14,9 +17,16 @@
       <w>pred</w>
       <w>pymysql</w>
       <w>regressor</w>
+      <w>signalperiod</w>
       <w>sklearn</w>
+      <w>slowd</w>
+      <w>slowk</w>
+      <w>slowperiod</w>
+      <w>stoch</w>
       <w>stockid</w>
+      <w>talib</w>
       <w>tbody</w>
+      <w>timeperiod</w>
     </words>
   </dictionary>
 </component>

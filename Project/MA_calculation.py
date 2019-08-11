@@ -3,7 +3,7 @@ from decimal import Decimal
 import datetime
 
 # df = pd.read_csv("history_stock.csv", encoding='big5', low_memory=False)
-df = pd.read_csv("2891_inf.csv", encoding='big5', low_memory=False)
+df = pd.read_csv("2881.csv", encoding='big5', low_memory=False)
 pd.set_option('display.max_rows', None)
 df_close = df["p_close"]
 len_close = len(df_close)
@@ -58,4 +58,4 @@ try:
     df_append = df.join(df2, how='left')  # append是加在下面 join才是新增欄位
 finally:
     # df_append.to_csv("history_stock_MA.csv", encoding="Big5", index=False)
-    df_append.to_csv("2891_inf_MA.csv", encoding="Big5", index=False)
+    df_append.to_csv("2881_MA.csv", encoding="Big5", index=False)

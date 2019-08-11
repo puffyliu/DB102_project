@@ -13,7 +13,7 @@ code_len = len(code_list)
 
 engine = create_engine(
     "mysql+pymysql://{user}:{pw}@{localhost}:{port}/{db}".format(user="db102stock", pw="db102stock_pwd",
-                                                                 localhost="10.120.14.28", port=3306, db="stock"))
+                                                                 localhost="10.120.14.18", port=3307, db="stock"))
 
 for i in range(code_len):
     try:
